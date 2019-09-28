@@ -17,8 +17,10 @@
     "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^1.0.4",
     "plumber": "^0.4.8",
-    "pump": "^1.0.3"
+    "pump": "^1.0.3",
+    "uglify-es": "^3.3.9"
   },
   "dependencies": {
     "gulp": "^3.9.1"
