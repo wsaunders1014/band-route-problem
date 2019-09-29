@@ -27,7 +27,13 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 
 # Candidate Notes:
 
-Alright, time to get started. Here we go. I've forked the project and cloned it. I set up a basic file structure and my workflow. I use gulp currently, and I'm including the gulpfile for your perusal. The time is 9/28/2019 at 4:38 and I'm officially beginning the project.
+Saturday
+4:38 - Alright, time to get started. Here we go. I've forked the project and cloned it. I set up a basic file structure and my workflow. I use gulp currently, and I'm including the gulpfile for your perusal. The time is 9/28/2019 at 4:38 and I'm officially beginning the project.
 
-Dog is begging me to go outside, so taking a quick pause at 5:11.
-Resuming at 5:51.
+5:11 - Dog is begging me to go outside, so taking a quick pause. Time on project: 33 minutes.
+5:51 - Resuming.
+6:07- Pushed algorithm to git.
+6:30 - Taking another break. Dog needs to eat. Time on Project: 1 hour 12 minutes.
+
+Sunday
+1:42 AM - Coming back to the project. Decided too take another look at the specs because I thought it seemed too easy and I was right. Missed the part about the first coords being where to start and that the tour needs to return there. Which makes my algorithm incomplete. In fact it increases the complexity exponentially. I'm going to have to think about this.

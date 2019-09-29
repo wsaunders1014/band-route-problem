@@ -19,7 +19,7 @@ const findClosestPoint = (lastPoint,pointsLeft) =>{
 		return closest;
 	},{distance:0,index:null});
 	//console.log('cp: ',closestPoint);
-	return closestPoint.index;
+	return closestPoint;
 	
 
 };
@@ -35,12 +35,28 @@ const calcRoute = (dataset) => {
 
 	//Iterates through the pointsleft, removing the closest next point and adding it to route. 
 	for(let i = 0; i<tourLength;i++){
-		route.push(pointsLeft.splice(findClosestPoint(route[route.length-1],pointsLeft),1)[0]);
+		route.push(pointsLeft.splice(findClosestPoint(route[route.length-1],pointsLeft).index,1)[0]);
 		//console.log("route: ",route.length);
 		//console.log("pointsLeft: ",pointsLeft.length);
 	}
+	return route;
 	//console.log("route: ",route.length);
 	//console.log("pointsLeft: ",pointsLeft.length);
 
 }
-console.log(calcRoute(points40));
+const displayRouteTable = (dataset) =>{
+	let route = calcRoute(dataset);
+	for(let i = 0; i<route.length; i++){
+		let table = document.getElementById('routeData');
+		let row = table.insertRow(-1);
+		//there are 4 cells;
+		let cell0 = row.insertCell(0);
+		let cell1 = row.insertCell(1);
+		let cell2 = row.insertCell(2);
+		let cell3 = row.insertCell(3);
+		cell0.innerHTML = `${i+1}`;
+		cell1.innerHTML = `${route[i].x}, ${route[i].y}`;
+	}
+}
+displayRouteTable(points40);
+//console.log(calcRoute(points40));
