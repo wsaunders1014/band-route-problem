@@ -40,4 +40,14 @@ Sunday
 
 3:01 AM - Calling it a night. My head hurts. From googling it seems this is called the Traveling Salesman Program and it is not easily solved. You can either brute force it or use methods that sacrifice some accuracy for faster computation. I've begun implementing a genetic algorithm(I understand the logic behind it, but not sure I know how to implement it in the time provided). Time on Project: 2 hours 31 minutes.
 
-4:00 PM - So coming back to it again. I've sort of had a change of heart. I'm thinking, I'm a front end developer so I'm also concerned with how it looks and functions for the user. So I've implemented plotting the route I'm providing on a canvas, and I've made the canvas responsive. Currently, resizing the window isn't working properly, but on load the canvas and route fit in the window. I also added buttons to calc the different data sets.
+5:00 PM - So coming back to it again. I've sort of had a change of heart. I'm thinking, I'm a front end developer so I'm also concerned with how it looks and functions for the user. So I've implemented plotting the route I'm providing on a canvas, and I've made the canvas responsive. Currently, resizing the window isn't working properly, but on load the canvas and route fit in the window. I also added buttons to calc the different data sets.
+5:42 PM - Pushing current changes, now i'm going back to work on the algorithm. Time on Project: 3 hours 13 minutes.
+
+6:15 - Actually took a short break. Came back and found a node module that handles the heavy lifting of GA's, so i'm implementing that.
+7:00 - Taking another break for dinner. Feel bad for stopping and starting so much, but it's the weekend! I'm right at the time limit. I'd like to finish it though because I'm pretty close and if I hadn't wasted an hour working towards the wrong goal, I'd probably be pretty good on time. Time on Project: 4 hours.
+
+8:36- Created mutation and crossover functions, and fitness comparisons. Seems like its working, fitness number goes down every iteration.
+9:10 - My dog has no compassion for my workflow! Stopped for a walk. Time on project: 4 hours 34 mins.
+
+10:54 - Back to work.
+11:54 - Commiting final push. There are some bugs: mainly the table doesn't get reset after each button push. And I introduced a loader gif over the canvas, but it's not changing the style when I use the algorithm, not sure why. Time on project 5 hours 35 mins.

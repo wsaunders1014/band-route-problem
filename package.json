@@ -23,6 +23,7 @@
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
+    "geneticalgorithm": "^0.3.6",
     "gulp": "^3.9.1"
   }
 }

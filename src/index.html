@@ -22,13 +22,16 @@
 	</h1>
 	
 
-
-	<canvas id="canvas" width="1000" height="1000"></canvas>
+	<div id="canvas-container">
+		<canvas id="canvas" width="1000" height="1000"></canvas>
+		<div id="loader"><img src="img/loader.gif" alt="Loading gif">Calculating...</div>
+		<div id="distance"></div>
+	</div>
 	<h2>Route Order</h2>
 	<!--First going to just display data in table, yeah I'm using tables! -->
 	<div id="table-holder">
 		<table id="routeData">
-			<tr><th>Stop</th><th>Points</th><th>Distance from Last Stop</th><!-- <th>Original Index</th> --></tr>
+			<tr><th>Stop</th><th>Points</th></tr>
 		</table>
 	</div>
   <script type="module" src="js/main.js"></script>
