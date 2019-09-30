@@ -12,13 +12,25 @@
 </head>
 
 <body>
-	<h1>Coding Challenge</h1>
-	<!--First going to just display data in table, yeah I'm using tables! -->
+	<h1>Coding Challenge
+		<nav>
+			<ul>
+				<li><button id="points40">Plot Points40 </button></li>
+				<li><button id="points200">Plot Points200</button></li>
+				<li><button id="points500">Plot Points500</button></li>
+		</nav>
+	</h1>
+	
 
+
+	<canvas id="canvas" width="1000" height="1000"></canvas>
 	<h2>Route Order</h2>
-	<table id="routeData">
-		<tr><th>Stop</th><th>Points</th><th>Distance from Last Stop</th><th>Distance from Origin</th></tr>
-	</table>
+	<!--First going to just display data in table, yeah I'm using tables! -->
+	<div id="table-holder">
+		<table id="routeData">
+			<tr><th>Stop</th><th>Points</th><th>Distance from Last Stop</th><!-- <th>Original Index</th> --></tr>
+		</table>
+	</div>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

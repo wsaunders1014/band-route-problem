@@ -32,8 +32,12 @@ Saturday
 
 5:11 - Dog is begging me to go outside, so taking a quick pause. Time on project: 33 minutes.
 5:51 - Resuming.
-6:07- Pushed algorithm to git.
+6:07 - Pushed algorithm to git.
 6:30 - Taking another break. Dog needs to eat. Time on Project: 1 hour 12 minutes.
 
 Sunday
 1:42 AM - Coming back to the project. Decided too take another look at the specs because I thought it seemed too easy and I was right. Missed the part about the first coords being where to start and that the tour needs to return there. Which makes my algorithm incomplete. In fact it increases the complexity exponentially. I'm going to have to think about this.
+
+3:01 AM - Calling it a night. My head hurts. From googling it seems this is called the Traveling Salesman Program and it is not easily solved. You can either brute force it or use methods that sacrifice some accuracy for faster computation. I've begun implementing a genetic algorithm(I understand the logic behind it, but not sure I know how to implement it in the time provided). Time on Project: 2 hours 31 minutes.
+
+4:00 PM - So coming back to it again. I've sort of had a change of heart. I'm thinking, I'm a front end developer so I'm also concerned with how it looks and functions for the user. So I've implemented plotting the route I'm providing on a canvas, and I've made the canvas responsive. Currently, resizing the window isn't working properly, but on load the canvas and route fit in the window. I also added buttons to calc the different data sets.

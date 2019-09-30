@@ -1,7 +1,18 @@
+body{
+	margin:0;
+}
+h1,h2{
+	margin-left: 2.5%;
+	position:relative;
+}
+#table-holder{
+	margin:0 2.5%;
+}
 table{
 	border:1px solid black;
 	border-collapse: collapse;
 	border-spacing:3px;
+	width: 100%;
 	th{
 		text-align: left;
 		font-weight: bold;
@@ -11,5 +22,57 @@ table{
 	td{
 		border:1px solid;
 		padding:5px 10px;
+	}
+}
+#cities{
+	position:relative;
+	.city{
+		width: 20px;
+	    height: 20px;
+	    position: absolute	;
+	    background: blue;
+	    border-radius: 20px;
+	    color: #fff;
+	    font-size: 10px;
+	    padding: 10px 5px 0;
+	    text-align: center;
+	}
+	.city:first-child{
+			background:red;
+	}
+}
+canvas{
+	outline: 1px solid black;
+	margin:0 auto;
+	display: block;
+	transform-origin: left top;
+}
+nav{
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	li{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 1000px){
+	h1,h2,table{
+		width: 1000px;
+		margin: 10px auto;
+	}
+
+}
+@media screen and (max-width: 600px){
+	h1{
+		text-align: center;
+		
+	}
+	nav{
+		position:relative;
 	}
 }
