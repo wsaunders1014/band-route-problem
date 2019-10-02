@@ -98,3 +98,11 @@ ul li {
     position: relative;
   }
 }
+blink {
+  animation: blinking 1s linear infinite alternate;
+}
+@keyframes blinking {
+  50% {
+    opacity: 0;
+  }
+}
